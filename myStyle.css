@@ -3,10 +3,13 @@
 
 
 
-a:link {  
-    color:rgb(156, 219, 156);  
+a:link{  
+    color:rgb(251, 244, 233)
 }
 
+a:focus {
+    color:rgb(251, 244, 233)
+}
 h2 {
     color: rgb(141, 141, 230); background-color: peachpuff; width:fit-content
 }
@@ -48,17 +51,41 @@ h2, h3 {
     width: auto; margin-bottom: auto; text-align: justify;
 }
 
-img {
-    float:top ;
+img#img1100 {
+    float: top;
 }
 
-<div class="flexible">
-<div class="content">First content</div>
-<div class="content">Second content</div>
-<div class="content">Third content</div>
-</div>
-
-div.flexible {  
-    display:flex;  
+img#img123 {
+    float: top;
 }
 
+img#img1100 {
+    width:10%; 
+}
+
+img#img123 {
+    width:10%
+}
+
+h1.container {
+    column-span: all;
+    font-weight: bold;
+    font-size: 2.5em;
+    background-color: #fefaff; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .5em;
+   }
+
+   title.container {
+    column-span: all;
+    font-weight: bold;
+    font-size: 2.5em;
+    background-color: #fefaff; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .5em;
+   }
+
+“img[title~="court cases"] {border: 3px solid;}”
+“li#sleestak { color: rgb(237, 237, 135); }”

@@ -87,5 +87,25 @@ h1.container {
     padding: .5em;
    }
 
-“img[title~="court cases"] {border: 3px solid;}”
-“li#sleestak { color: rgb(237, 237, 135); }”
+img[title~="court cases"] {border: 3px solid;}
+li#sleestak { color: rgb(237, 237, 135); }
+
+@media (max-width: 600px) {
+    .body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+        }
+
+@media (orientation: portrait) {
+    .body {
+        background-color: lightblue;
+    }
+}
+
+@media (orientation: landscape) {
+    .body {
+        background-color: lightgreen;
+    }
+}

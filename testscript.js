@@ -20,4 +20,3 @@ function onChange() {
     otheritem.innerHTML = newtext;  
 }
 <strong>Look at this bold text!</strong>
-
